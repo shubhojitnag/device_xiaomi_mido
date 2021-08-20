@@ -801,6 +801,12 @@ vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|6b00f42dc85becc58f3
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
 vendor/lib64/libwvhidl.so|ae215b1afd38cda71818dfde44c6186bd4ec2cb1
 
+# HotwordEnrollment
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
 # Fingerprint
 bin/gx_fpd:vendor/bin/gx_fpd
 lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so
