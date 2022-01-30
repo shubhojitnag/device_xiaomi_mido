@@ -362,7 +362,10 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml \
     android.hardware.radio@1.5 \
-    telephony-ext
+    telephony-ext \
+    android.hardware.radio.deprecated@1.0 \
+    android.hardware.radio.deprecated@1.0.vendor 
+
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
