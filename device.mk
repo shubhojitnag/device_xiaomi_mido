@@ -352,6 +352,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+#Kernel Manager
+PRODUCT_PACKAGES += \
+  km
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
