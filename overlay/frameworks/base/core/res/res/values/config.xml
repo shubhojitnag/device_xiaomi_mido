@@ -627,9 +627,6 @@
          vendor fingerprint HAL implementations. -->
     <bool name="config_fingerprintPostResetRunnableForAllClients">true</bool>
 
-<!-- Double tap to wake -->
-<bool name="config_supportDoubleTapWake">true</bool>
-
 <!-- Boost the brightness on a triple press of the power button -->
 <integer name="config_triplePressOnPowerBehavior">2</integer>
 
@@ -642,9 +639,7 @@
 <!--  improve signal reception -->
 <bool name="config_ignoreRssnrSignalLevel">true</bool>
 
-<!-- LED Support -->
-<bool name="config_intrusiveBatteryLed">true</bool>
-<bool name="config_multiColorBatteryLed">true</bool>
+<!-- Fast Charging LED Support -->
 <bool name="config_FastChargingLedSupported">true</bool>
 
 <!-- Support both wifi frequencies -->
