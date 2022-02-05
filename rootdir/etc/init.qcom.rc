@@ -81,6 +81,10 @@ on early-boot
     chown system system /mnt/vendor/persist/sensors/registry/config
     chmod 0664 /mnt/vendor/persist/sensors/sensors_settings
 
+    # FPS measurement
+    chmod 0666 /sys/devices/virtual/graphics/fb0/measured_fps
+    chown system graphics /sys/devices/virtual/graphics/fb0/measured_fps
+
     # Graphics
     chown system graphics /sys/class/graphics/fb0/idle_time
     chmod 0664 /sys/class/graphics/fb0/idle_time
