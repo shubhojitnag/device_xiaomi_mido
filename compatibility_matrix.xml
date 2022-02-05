@@ -7,6 +7,14 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="true">
+    <name>android.hardware.keymaster</name>
+    <version>4.0-1</version>
+    <interface>
+        <name>IKeymasterDevice</name>
+        <instance>default</instance>
+    </interface>
+    </hal>
     <hal format="hidl" optional="false">
         <name>android.frameworks.schedulerservice</name>
         <version>1.0</version>
