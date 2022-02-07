@@ -35,6 +35,7 @@ TARGET_BOARD_PLATFORM := msm8953
 
 TARGET_BOARD_SUFFIX := _64
 
+
 # Device Properties
 TARGET_ODM_PROP := $(DEVICE_PATH)/odm.prop
 TARGET_PRODUCT_PROP := $(DEVICE_PATH)/product.prop
