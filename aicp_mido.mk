@@ -41,4 +41,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 
 PRODUCT_OVERRIDE_INFO := true
-PRODUCT_OVERRIDE_FINGERPRINT := google/redfin/redfin:12/SP2A.220305.012/8177914:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/redfin/redfin:12/SP2A.220405.003/8210211:user/release-keys
