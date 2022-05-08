@@ -61,3 +61,7 @@
 
 # FPS Info
 /sys/devices/virtual/graphics/fb0/measured_fps           u:object_r:sysfs:s0
+
+# Kcal
+/sys/devices/platform/kcal_ctrl.0(/.*)?                      u:object_r:kcal_dev:s0
+/sys/bus/platform/drivers/kcal_ctrl(/.*)?                    u:object_r:kcal_dev:s0
