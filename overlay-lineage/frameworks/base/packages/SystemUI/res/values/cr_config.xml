@@ -1,0 +1,16 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Whether show refresh rate QS tile -->
+    <bool name="config_showRefreshRateQsTile">true</bool>
+
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1000</integer>
+    
+    <!-- The CPU temperature sensor path, defaults to empty -->
+    <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone0/temp</string>
+
+    <!-- System info -->
+    <string name="config_sysCPUTemp">"/sys/class/thermal/thermal_zone0/temp"</string>
+    <string name="config_sysBatteryTemp">"/sys/class/power_supply/battery/temp"</string>
+    <string name="config_sysGPUFreq">"/sys/kernel/gpu/gpu_clock"</string>
+    <string name="config_sysGPULoad">"/sys/kernel/gpu/gpu_busy"</string>
+</resources>
