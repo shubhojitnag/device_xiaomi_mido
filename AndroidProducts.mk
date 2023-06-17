@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_mido.mk
+    $(LOCAL_DIR)/dot_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_mido-user \
-    aicp_mido-userdebug \
-    aicp_mido-eng
+    dot_mido-user \
+    dot_mido-userdebug \
+    dot_mido-eng
